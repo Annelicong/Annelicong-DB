@@ -1,0 +1,11 @@
+1. 编译型语言：
+使用专门的编译器，针对特定的平台，将高级语言源代码一次性的编译成可被该平台硬件执行的机器码，并包装成该平台所能识别的可执行性程序的格式。
+编译型的语言包括：C、C++、Delphi、Pascal、Fortran等。
+2. 解释型语言：
+使用专门的解释器对源程序逐行解释成特定平台的机器码并立即执行。是代码在执行时才被解释器一行行动态翻译和执行，而不是在执行之前就完成翻译。
+解释型的语言包括：PHP、python、Java、Basic、javascript等。
+3. Python编程语言连接MySQL数据库主要有三种方式，分别是sqlalchemy、MySQLdb、PyMySQL。
+1）Sqlalchemy是python中著名的orm框架，通过这个框架可以不用关心sql语句，就能操作数据库。直接使用pip安装。
+2）MySQLdb是用于Python链接Mysql数据库的接口，它实现了Python 数据库API规范V2.0，基于MySQL C API上建立的。直接使用pip安装，MySQLdb模块的名字在pip上叫MySQL-python。
+3）PyMySQL是一个纯Python写的MySQL客户端，它的目标是替代MySQLdb，可以在CPython、PyPy、IronPython和Jython环境下运行。
+PyMySQL的性能和MySQLdb几乎相当，如果对性能要求不是特别的强，使用PyMySQL将更加方便。PyMySQL的使用方法和MySQLdb几乎一样。
